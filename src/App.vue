@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <employee-table />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import EmployeeTable from '@/components/EmployeeTable'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    EmployeeTable
   }
 }
 </script>
