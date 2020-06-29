@@ -26,9 +26,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'employee-table',
-  }
+export default {
+  name: 'employee-table'
+}
 </script>
 
 <style scoped></style>
